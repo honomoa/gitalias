@@ -25,6 +25,7 @@
     rc = rebase --continue
     rs = rebase --skip
     ra = rebase --abort
+    ri = rebase --interactive
 
     logf = log --follow
     purge = clean -d -f -x
